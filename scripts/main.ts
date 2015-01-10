@@ -21,3 +21,10 @@ match(inferred_content_type()) {
     log("Passing through " + $content_type + " unmodified.")
   }
 }
+
+match($content_type) {
+  with(/html/) {
+    # Replace existing desktop doctypes to be HTML5 compliant, <!DOCTYPE html>
+    replace(/\<\!DOCTYPE.*\.dtd\"\>/, "<!DOCTYPE html>")
+  }
+}

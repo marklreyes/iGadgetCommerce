@@ -26,7 +26,17 @@ match($status) {
         @import "pages/home.ts"
       }
 
+      # iGadgetCommerce Category Page
+      with(/(brands)|(shop-)/) {
+        log("--> Importing pages/category.ts in mappings.ts")
+        @import "pages/category.ts"
+      }
 
+      # iGadgetCommerce Product Page
+      with(/(sample-product)/) {
+        log("--> Importing pages/product.ts in mappings.ts")
+        @import "pages/product.ts"
+      }           
 
       else() {
         log("--> No page match in mappings.ts")

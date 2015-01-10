@@ -8,9 +8,12 @@ $("/html") {
 
 	add_assets()
 
-	# Add viewport meta tag for mobile
 	$("./head") {
+		# Add viewport meta tag for mobile
 		insert_top("meta", name: "viewport", content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+
+		#Add Twitter Bootstrap 2.3.2 CSS file
+		insert("link", href: "https://maxcdn.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css", rel: "stylesheet")
 	}
 
 	# Wrap the inner contents of the body tag in a div
