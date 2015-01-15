@@ -1,0 +1,43 @@
+// //Moovweb Reset Styles
+body {
+	overflow-x: hidden;
+}
+
+// // Desktop Reset Styles
+#AjaxLoading,
+#Logo,
+#Container, 
+.Content {
+	width: 100%;
+	float: none;
+}
+
+#Wrapper {
+	padding: 20px;
+	background-color: $white;
+}
+
+.Content {
+	float: none;
+	margin: 0 auto;
+	padding: 0;
+	min-height: inherit;
+}
+
+// Uranium Carousel Styles
+[data-ur-carousel-component="scroll_container"] {
+	position: absolute;
+}
+
+[data-ur-set="carousel"] {
+  overflow: hidden;
+  position: relative;
+}
+
+[data-ur-carousel-component="item"] {
+  float: left;
+}	
+
+footer {
+	color: white;
+}

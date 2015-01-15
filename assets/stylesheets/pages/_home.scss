@@ -1,5 +1,15 @@
 // Every page should have a class on the body
 // Scope that in each file at the start
-.mw-home {
-  
+#mw-home {
+	#HomeFeaturedProducts {
+		height: 360px;
+	}
+
+	#HomeNewProducts {
+		height: 500px;
+	}
+
+	.Content h2 {
+		text-align: center;
+	}
 }

@@ -1,6 +1,18 @@
-# Moovweb Project
+# Moovweb Certification Project: iGadgetCommerce.com
 Welcome to your Moovweb project! Moovweb is a great way to build a compelling new front-end presentation for an existing website. The files in this project describe the changes you want to make to the front end of a site. There are places in this project to add new images (assets/images/), styles (assets/stylesheets/) and even manipulate HTML (scripts/).
 
+## Project Requirements
+
+1. Transform the homepage of [iGadgetCommerce](http://www.igadgetcommerce.com) (9 points).
+2. Transform the category pages of [iGadgetCommerce](http://www.igadgetcommerce.com) (9 points).
+3. Transform the product pages of [iGadgetCommerce](http://www.igadgetcommerce.com) (9 points).
+4. Overall Sass styling and mobile design (9 points). You can use the mockups located  [here](http://developer.moovweb.com/training/building_a_site/understanding_a_site#Mock-ups) or you can create your own mobile design!
+5. Use the following Tritium functions: remove(), attribute(), add_class(), move_here(), fetch(), text(), insert(), and use XPath selectors (4 points).
+6. Create an accordion widget using Uranium or your favorite library (4 points).
+7. Use the following Sass features: variables, mixins, and nesting. (2 points).
+8. Use Moovweb’s automatic spriting feature (2 points).
+9. Deploy your project to your Moovweb account using Git (2 points).
+10. Create an image carousel (5 points extra credit, recommended on the homepage).
 ## Before Running This
 To run this project, you must have the Moovweb SDK installed on your system. Installation is easy - just go to [the download page on the Moovweb site](http://developer.moovweb.com/download) to download and install.
 
