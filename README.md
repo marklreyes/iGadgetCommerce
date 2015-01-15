@@ -13,6 +13,7 @@ Welcome to your Moovweb project! Moovweb is a great way to build a compelling ne
 8. Use Moovweb’s automatic spriting feature (2 points).
 9. Deploy your project to your Moovweb account using Git (2 points).
 10. Create an image carousel (5 points extra credit, recommended on the homepage).
+
 ## Before Running This
 To run this project, you must have the Moovweb SDK installed on your system. Installation is easy - just go to [the download page on the Moovweb site](http://developer.moovweb.com/download) to download and install.
 
